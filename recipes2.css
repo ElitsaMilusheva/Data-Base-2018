@@ -1,0 +1,163 @@
+*
+#page-wrap {
+     min-width: 200px;
+     margin: 0 auto;
+     max-width: 900px;
+}
+body {
+
+
+ -moz-background-size: 100% 100%;
+
+ -o-background-size: 100% 100%;
+
+ -webkit-background-size: 100% 100%;
+
+ background-size: 100% 100%;
+
+}
+header{
+    width: 100%;
+    padding: 0;
+    color: white;
+     text-align: center;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+nav ul{
+    background-color: #4CAF50;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin:0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li:hover{
+    background-color: darkgreen;
+}
+    
+ 
+.bigh{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+
+.intro{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+ .sal {
+
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;  
+ }
+ .firstSal{
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+    padding: 10px;
+
+ }
+ 
+ .ingred{
+    
+    font-size: 20px;
+    background:#00ff99;
+    max-width:300px; 
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+ }
+
+ .prepare{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding: 20px;
+
+
+ }
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.scrollToTop{
+    width:80px; 
+    height:100px;
+    padding:10px; 
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:280px;
+    bottom: 10px;
+    right:20px;
+    display:none;
+    background: url('top.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 320px) {
+
+   body { 
+      font-size: 1em; 
+   }
+   nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+}
+
